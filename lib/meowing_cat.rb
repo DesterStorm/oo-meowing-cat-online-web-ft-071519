@@ -7,6 +7,10 @@ class Cat
     @name 
   end
   
+  def meow
+    attr_accessor
+  end
+  
   def meow=(meow)
     @meow = meow
   end
